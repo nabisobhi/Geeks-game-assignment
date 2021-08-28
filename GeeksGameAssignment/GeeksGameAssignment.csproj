@@ -1,0 +1,123 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\Photos\Chinese01.jpg" />
+    <None Remove="Resource\Photos\Chinese02.jpg" />
+    <None Remove="Resource\Photos\Chinese03.jpg" />
+    <None Remove="Resource\Photos\Chinese04.jpg" />
+    <None Remove="Resource\Photos\Chinese05.jpg" />
+    <None Remove="Resource\Photos\Chinese06.jpg" />
+    <None Remove="Resource\Photos\Chinese07.jpg" />
+    <None Remove="Resource\Photos\Chinese08.jpg" />
+    <None Remove="Resource\Photos\Japanese01.jpg" />
+    <None Remove="Resource\Photos\Japanese02.jpg" />
+    <None Remove="Resource\Photos\Japanese03.jpg" />
+    <None Remove="Resource\Photos\Japanese04.jpg" />
+    <None Remove="Resource\Photos\Japanese05.jpg" />
+    <None Remove="Resource\Photos\Japanese06.jpg" />
+    <None Remove="Resource\Photos\Korean01.jpg" />
+    <None Remove="Resource\Photos\Korean02.jpg" />
+    <None Remove="Resource\Photos\Korean03.jpg" />
+    <None Remove="Resource\Photos\Korean04.jpg" />
+    <None Remove="Resource\Photos\Korean05.jpg" />
+    <None Remove="Resource\Photos\Korean06.jpg" />
+    <None Remove="Resource\Photos\Korean07.jpg" />
+    <None Remove="Resource\Photos\Thai01.jpg" />
+    <None Remove="Resource\Photos\Thai02.jpg" />
+    <None Remove="Resource\Photos\Thai03.jpg" />
+    <None Remove="Resource\Photos\Thai04.jpg" />
+    <None Remove="Resource\Photos\Thai05.jpg" />
+    <None Remove="Resource\Photos\Thai06.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\Photos\Chinese01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Chinese02.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Chinese03.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Chinese04.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Chinese05.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Chinese06.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Chinese07.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Chinese08.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Japanese01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Japanese02.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Japanese03.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Japanese04.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Japanese05.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Japanese06.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Korean01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Korean02.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Korean03.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Korean04.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Korean05.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Korean06.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Korean07.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Thai01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Thai02.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Thai03.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Thai04.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Thai05.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Photos\Thai06.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
